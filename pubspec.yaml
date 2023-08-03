@@ -1,0 +1,31 @@
+name: ncku_course_final_project
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  auto_size_text: ^3.0.0
+  #device_preview: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_polygon: ^0.3.0+2
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/images/smile_scale/
+  fonts:
+    - family: Openhuninn
+      fonts:
+        - asset: assets/fonts/jf-openhuninn-2.0.ttf
